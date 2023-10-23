@@ -187,7 +187,7 @@ export default function Paragraph2() {
       } else {
         openSuccessModal();
 
-        //  window.alert("You are at Wrong Netweok, Connect with Ropston Please")
+        //  window.alert("You are at Wrong Netweok, Connect with Polygon Please")
       }
     };
     web3Api.web3 && account && LoadContracts();
@@ -241,7 +241,7 @@ export default function Paragraph2() {
 
         <SuccessDialog show={successOpen} closeSuccessModal={closeSuccessModal}>
           {{
-            msg: "PLease Connect MetaMask With Sepolia NetWork",
+            msg: "PLease Connect MetaMask With Polygon NetWork",
             title: "Attention",
             buttonTitle: "Cancel",
           }}
