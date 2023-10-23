@@ -7,8 +7,8 @@ export default function Paragraph3() {
     const sellNftDetails = [
         {
             iconUrl : "/assets/svg/coin",
-            title : "Create your Owen ERC20 Token",
-            description : "Create and deploy an ERC20 token to Blockchain network and connect it to your marketplace",
+            title : "Create your Owen Fashion Token",
+            description : "Create an NFT token to Blockchain network and sell it to your marketplace or Stake and get froffit",
         }, 
         {
             iconUrl : "/assets/svg/sell-nft-icon3",
@@ -18,23 +18,23 @@ export default function Paragraph3() {
          {
             iconUrl : "/assets/svg/sell-nft-icon1",
             title : "Add Your NFTs",
-            description : "Upload your work, add a title and description, and customize your NFTs with properties, stats, and unlockable content",
+            description : "Upload your pictures, add a title and description, and customize your NFTs with properties, stats, and unlockable content",
         },
         {
             iconUrl : "/assets/svg/sell-nft-icon2",
             title : "Buy and Sell NFTs",
-            description : "You can Buy and Sell any NFT items that is buy from other user with new price and share it with friends",
+            description : "You can Buy and Sell any NFT items with new price and share it with friends",
         },
     
         {
             iconUrl : "/assets/svg/sell-nft-icon4",
-            title : "List Items For Sale",
-            description : "Sell your items with price and also have ability to cancel anytime from sale and edit price can work at Token and bnb and polygon net, any network with solidity",
+            title : "List Picture For Sale",
+            description : "Sell your Pictures with price and have ability to cancel anytime from sale and edit price",
         },  
          {
             iconUrl : "/assets/svg/sell-nft-icon2",
-            title : "Resell Items You Buy",
-            description : "You can resell any NFT items that is buy from other user with new price and share it with friends",
+            title : "Resell Items",
+            description : "You can resell any NFT items that you bougth from other user with new price and share it with friends",
         },
     ]
 
