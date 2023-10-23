@@ -85,7 +85,7 @@ function purchaseSuccesss() {
                             <div className="rounded-full w-[1.5rem] text-center bg-[#FFCC33] text-white">
                                 <img src="/assets/coin.png" alt="coin icon" className='max-w-full' />
                             </div>
-                            <h1 className="flex-grow text-[#FFCC33] text-base ml-2">{item.price } CAD</h1>
+                            <h1 className="flex-grow text-[#FFCC33] text-base ml-2">{item.price } MSTV</h1>
                         </div>
                         <p className="text-sm truncate ... ">{item.creator} </p>
                         <p className="text-[#A2A6D0] text-xs">Creator</p>
