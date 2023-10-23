@@ -281,7 +281,7 @@ export default function Header(props) {
                                           {accountBalance} Matic
                                         </p>
                                         <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                                          {tokenBalance} CAD
+                                          {tokenBalance} MSTV
                                         </p>
                                       </div>
                                       <div className="grid place-items-center w-[22px] h-[22px] bg-[#FFCC33] text-[#FAD804] text-xs font-bold rounded-sm">
