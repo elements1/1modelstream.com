@@ -414,7 +414,7 @@ export default function Header(props) {
                               {accountBalance} Matic
                             </p>
                             <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                              {tokenBalance} CAD
+                              {tokenBalance} MSTV
                             </p>
                           </div>
                         </div>
