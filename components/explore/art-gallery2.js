@@ -51,7 +51,7 @@ export default function ArtGallery2(props) {
                                 <img src="/assets/coin.png" alt="coin icon" className='max-w-full' />
 
                             </div>
-                            <h1 className="flex-grow text-[#FFCC33] text-base ml-2">{item.price} CAD</h1>
+                            <h1 className="flex-grow text-[#FFCC33] text-base ml-2">{item.price} MSTV</h1>
                         </div>
                         <Link href={`/account/${item.creator}`}>
                         <a className="text-sm truncate ...">{item.creator}</a>
