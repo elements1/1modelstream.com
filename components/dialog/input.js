@@ -69,7 +69,7 @@ export default function InputDialog(props) {
 
                         <div className='relative text-[#B4BAEF] dark:text-gray-600 py-4'>
                             <input className='w-full text-sm p-3.5 pr-16 rounded-md border border-[#9FA4FF] bg-[#1E1E1E] dark:bg-white focus:outline-none focus:ring-2' type="number" min={0}  placeholder='New Price' ref={inputPriceRef} id="nft-price"    onChange = {e=>setNewPrice(e.target.value)}></input>
-                            <p className='absolute top-1/2 right-8 -translate-y-1/2 text-sm'>CAD</p>
+                            <p className='absolute top-1/2 right-8 -translate-y-1/2 text-sm'>MSTV</p>
                             <FontAwesomeIcon icon={faEthereum} className='absolute top-1/2 right-4 -translate-y-1/2 text-sm' />
                         </div>
                     </div>
