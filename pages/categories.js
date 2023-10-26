@@ -252,7 +252,7 @@ export default function CategoryPage() {
   };
 
   const [data, setData] = useState(unsoldItems);
-  const [category, setCategory] = useState("MODEL"),("FASHION");
+  const [category, setCategory] = useState("MODEL");
 
   useEffect(() => {
     const filteredData = unsoldItems.filter((d) => d.category === category);
@@ -267,7 +267,8 @@ export default function CategoryPage() {
   const [current, setCurrent] = useState(0);
 
   const btnCategories = [
-    "MODEL"];
+    "MODEL"
+  ];
      
 
   return (
@@ -325,7 +326,7 @@ export default function CategoryPage() {
               closeSuccessModal={closeSuccessModal}
             >
               {{
-                msg: "PLease Connect MetaMask With Sepolia NetWork",
+                msg: "PLease Connect MetaMask With Polygon NetWork",
                 title: "Attention",
                 buttonTitle: "Cancel",
               }}
