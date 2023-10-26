@@ -277,7 +277,7 @@ export default function CategoryPage() {
     }
   }, [unsoldItems, category]);
 
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(1);
 
   const btnCategories = [
     "FASHION",
