@@ -253,7 +253,7 @@ export default function CategoryPage() {
 
   const [data, setData] = useState(unsoldItems);
   const [category, setCategory] = useState("MODEL");
-
+ const [category, setCategory] = useState("FASHION");
   useEffect(() => {
     const filteredData = unsoldItems.filter((d) => d.category === category);
 
@@ -268,6 +268,19 @@ export default function CategoryPage() {
 
   const btnCategories = [
     "MODEL",
+  
+  ];
+   if (category === "FASHION") {
+      setData(unsoldItems);
+    } else {
+      setData(filteredData);
+    }
+  }, [unsoldItems, category]);
+
+  const [current, setCurrent] = useState(0);
+
+  const btnCategories = [
+    "FASHION",
   
   ];
 
