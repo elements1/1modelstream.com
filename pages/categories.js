@@ -252,7 +252,7 @@ export default function CategoryPage() {
   };
 
   const [data, setData] = useState(unsoldItems);
-  const [category, setCategory] = useState("MODEL");
+  const [category, setCategory] = useState("MODEL", "FASHION");
 
   useEffect(() => {
     const filteredData = unsoldItems.filter((d) => d.category === category);
@@ -267,7 +267,7 @@ export default function CategoryPage() {
   const [current, setCurrent] = useState(0);
 
   const btnCategories = [
-    "MODEL",
+    "MODEL", "FASHION",
   
   ];
 
@@ -278,7 +278,7 @@ export default function CategoryPage() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <Header current={1}></Header>
+      <Header current={2}></Header>
 
       <div className="bg-[#050505] dark:bg-white">
         <div className="w-full 2xl:max-w-screen-2xl h-auto pt-[104px] m-auto">
@@ -326,7 +326,7 @@ export default function CategoryPage() {
               closeSuccessModal={closeSuccessModal}
             >
               {{
-                msg: "PLease Connect MetaMask With Sepolia NetWork",
+                msg: "PLease Connect MetaMask With Polygon NetWork",
                 title: "Attention",
                 buttonTitle: "Cancel",
               }}
