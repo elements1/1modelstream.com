@@ -313,7 +313,8 @@ export default function CreateNftPage() {
                     Choose Category
                   </option>
                   <option value="MODEL">MODEL</option>
-                 <option value="FASHION">FASHION</option>
+          
+                  <option value="FASHION">FASHION</option>
                 </select>
 
                 <div className="relative text-[#B4BAEF]">
