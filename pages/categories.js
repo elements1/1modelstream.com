@@ -251,7 +251,7 @@ export default function CategoryPage() {
     }
   };
 
-   const [data, setData] = useState(unsoldItems);
+  const [data, setData] = useState(unsoldItems);
   const [category, setCategory] = useState("MODEL");
 
   useEffect(() => {
@@ -270,7 +270,6 @@ export default function CategoryPage() {
     "MODEL",
   
   ];
-     
 
   return (
     <>
@@ -327,7 +326,7 @@ export default function CategoryPage() {
               closeSuccessModal={closeSuccessModal}
             >
               {{
-                msg: "PLease Connect MetaMask With Polygon NetWork",
+                msg: "PLease Connect MetaMask With Sepolia NetWork",
                 title: "Attention",
                 buttonTitle: "Cancel",
               }}
