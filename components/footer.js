@@ -59,7 +59,7 @@ export default function Footer() {
 
           <div className="flex flex-col lg:flex-row mx-4 mb-2 sm:mx-8 sm:mb-4 lg:mx-[6vw] lg:mb-[3vw]">
             <p className="flex-none">
-              © 2021 model Stream. All rights reserved.
+              © 2023 model Stream. All rights reserved.
             </p>
             <p className="flex-none mx-0 lg:mx-8">Privacy policy</p>
             <p className="flex-grow">Terms & Conditions</p>
