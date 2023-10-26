@@ -251,7 +251,7 @@ export default function CategoryPage() {
     }
   };
 
-  const [data, setData] = useState(unsoldItems);
+   const [data, setData] = useState(unsoldItems);
   const [category, setCategory] = useState("MODEL");
 
   useEffect(() => {
@@ -267,7 +267,8 @@ export default function CategoryPage() {
   const [current, setCurrent] = useState(0);
 
   const btnCategories = [
-    "MODEL"
+    "MODEL",
+  
   ];
      
 
