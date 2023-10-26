@@ -332,7 +332,7 @@ export default function CreateNftPage() {
                     type="number"
                   ></input>
                   <p className="absolute top-1/2 right-8 -translate-y-1/2 text-sm">
-                    CAD Token
+                    MSTV Token
                   </p>
                   <FontAwesomeIcon
                     icon={faEthereum}
